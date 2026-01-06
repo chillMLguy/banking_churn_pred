@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+sklearn
+sklearn.pipeline
+sklearn.preprocessing
