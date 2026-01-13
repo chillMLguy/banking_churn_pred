@@ -144,12 +144,11 @@ See [requirements.txt](requirements.txt) for complete dependency list with versi
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd banking_churn_pred
+git clone <https://github.com/chillMLguy/banking_churn_pred?tab=readme-ov-file>
 
-# Create virtual environment (optional but recommended)
+# Create virtual environment 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
@@ -162,10 +161,11 @@ pip install -r requirements.txt
 jupyter notebook
 
 # Execute notebooks in order:
-# 1. 1. EDA.ipynb
-# 2. 2. data_preproces.ipynb
-# 3. 3. modeling.ipynb
-# 4. 4. final_results.ipynb
+# 1. EDA.ipynb
+# 2. data_preproces.ipynb
+# utils.py
+# 3. modeling.ipynb
+# 4. final_results.ipynb
 ```
 
 ## 🎯 Key Insights & Findings
@@ -174,7 +174,7 @@ jupyter notebook
 2. **Feature Engineering**: Three derived features capture behavioral patterns not visible in raw data
 3. **Class Imbalance**: Addressed through stratified splitting and balanced class weights
 4. **Model Evaluation**: F1-Score prioritized over Accuracy for meaningful metric
-5. **Grid Search**: Comprehensive hyperparameter tuning ensures optimal model performance
+5. **Best Model**
 
 ## 📝 Project Information
 
