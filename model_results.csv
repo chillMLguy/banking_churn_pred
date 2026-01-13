@@ -1,0 +1,6 @@
+Model,Best Params,Accuracy,Recall,Precision,F1-Score
+Random Forest,"{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 4, 'classifier__n_estimators': 100}",0.842,0.6274509803921569,0.6095238095238096,0.6183574879227053
+Support Vector Machine (SVM),"{'classifier__C': 1, 'classifier__kernel': 'rbf'}",0.7885,0.7524509803921569,0.48807631160572335,0.5920925747348119
+Decision Tree,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 5, 'classifier__min_samples_split': 2}",0.7965,0.6053921568627451,0.5010141987829615,0.5482796892341842
+Logistic Regression,"{'classifier__C': 0.01, 'classifier__penalty': 'l2'}",0.7025,0.7352941176470589,0.3811944091486658,0.502092050209205
+K-Nearest Neighbors (KNN),"{'classifier__metric': 'euclidean', 'classifier__n_neighbors': 3, 'classifier__weights': 'distance', 'pca__n_components': 10}",0.7905,0.3088235294117647,0.4790874524714829,0.37555886736214605
